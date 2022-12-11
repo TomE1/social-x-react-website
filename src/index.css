@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+
+  --color-white: #fff;
+  --dark-text: #333;
+  --form-button: #2da5ff;
+  --color-grey: #eae6eb;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  /* cool borders */
+
+  --borderRed: 7px solid red;
+  --borderViolet: 1px solid violet;
+  --borderBlue: 1px solid blue;
+  --borderBlack: 1px solid black;
+  --borderOrange: 1px solid orange;
+  --borderIndigo: 1px solid indigo;
+  --borderWhite: 1px solid white;
+  --borderYellow: 1px solid yellow;
+  --borderPurple: 1px solid purple;
+  --borderBrown: 1px solid brown;
+  --borderBisqu: 1px solid bisque;
+  --borderKhaki: 1px solid khaki;
+  --borderGray: 1px solid gray;
+
+  /* colors */
+  --primary-100: #e2e0ff;
+  --primary-200: #c1beff;
+  --primary-300: #a29dff;
+  --primary-400: #837dff;
+  --primary-500: #645cff;
+  --primary-600: #504acc;
+  --primary-700: #3c3799;
+  --primary-800: #282566;
+  --primary-900: #141233;
+
+  /* grey */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  /* rest of the colors */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  border: var(--borderIndigo);
+  background-color: rgb(64, 74, 74);
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  border: var(--bordergray);
+  width: 100%;
+  padding: 8rem 0;
+}
+
+.container {
+  border: var(--borderOrange);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* text styles */
+
+.u-text-small {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.u-text-light {
+  color: var(--color-white);
+}
+
+.u-text-dark {
+  color: var(--dark-text);
+}
+
+/* title */
+
+.u-title { 
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.u-title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--dark-text);
+  margin: 1.5rem 0;
+}
+
+.u-title p {
+  width: 50%;
+  min-width: 40rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+#footer{
+  border: var(--borderRed);
+}
+
+.footer-box{
+  border: var(--borderViolet);
+}

@@ -1,0 +1,77 @@
+section#subscribe {
+  border: var(bodyOrange);
+  background: url(../../assets/subscribe-bg.png);
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe h2 {
+  border: var(--borderWhite);
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+}
+
+form > * {
+  border: var(--borderRed);
+  width: 100%;
+  max-width: 50rem;
+  margin: 3rem auto;
+}
+
+form input {
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid #777;
+  border-radius: 5px 0 0 5px;
+  color: white;
+  outline: none;
+  width: 80%;
+}
+
+form button {
+  border: var(--borderYellow);
+  padding: 1rem;
+  background: var(--form-button);
+  border-radius: 0 5px 5px 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.social-icons {
+  border: var(--borderOrange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  color: white;
+  border: 1px solid white;
+  margin: 2rem;
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  background: var(--primary-500);
+}
+
+@media screen and (max-width: 600px) {
+  form-input {
+    width: 60%;
+  }
+}

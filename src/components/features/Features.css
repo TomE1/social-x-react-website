@@ -1,0 +1,30 @@
+#features {
+  border: var(--borderYellow);
+  background-color: rgb(247, 240, 240);
+}
+
+.features-content {
+  border: var(--borderIndigo);
+  display: flex;
+  justify-content: center;
+}
+.features-left {
+  border: var(--borderBrown);
+  flex: 1;
+  text-align: center;
+}
+
+.features-left img {
+  border: var(--borderViolet);
+  width: 65%;
+}
+.features-right {
+  border: var(--borderKhaki);
+  flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .features-content {
+    flex-direction: column;
+  }
+}
